@@ -1,0 +1,92 @@
+#searchDiv {
+	height: 30px;
+	padding-top: 150px;
+}
+
+#searchBox {
+	position: relative;
+	top: -20px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 700px;
+	height: 70px;
+	border-radius: 30px;
+	background: #000;
+	z-index: 1;
+
+}
+
+#searchBox input[type="text"]{
+	position: relative;
+	left: 20px;
+	top: 15px;
+	width: 660px;
+	height: 40px;
+	padding: 5px 10px;
+	border-radius: 30px;
+	font-size: large;
+	z-index: 1;
+
+}
+
+#searchBox input[type="submit"]{
+	position: relative;
+	right: -600px;
+	top: -25px;
+	height: 40px;
+	border: 0;
+	background: transparent;
+	font-size: large;
+	color: green;
+	z-index: 1;
+}
+
+#searchBox input[type="submit"]:hover{
+	text-shadow: 0 0 3px #ABABAB;
+}
+
+#mainBody {
+	background-size: cover;
+	min-height: 1240px;
+}
+
+.pagination {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.shadowButton {
+	color: #000;
+	cursor: pointer;
+	text-align: center;
+	position: relative;
+	float: left;
+}
+
+.shadowButton:hover{
+	text-shadow: 0 0 5px #000;
+}
+
+.pageNumber {
+	position: relative;	
+	float: left;
+	color: #000;
+	font-weight: bold;
+	font-size: x-large;
+	padding: 12px 20px;
+}
+
+.product {
+	margin: 20px 60px;
+	padding: 10px 20px;
+	background: #FFF;
+	border-radius: 15px;
+	border: 2px solid #9C9C9C;
+}
+
+.productImg {
+	margin: 0 80px 0 50px;
+}
+
+

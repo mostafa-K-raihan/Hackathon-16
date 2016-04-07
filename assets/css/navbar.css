@@ -1,0 +1,98 @@
+.topNavbar {
+	background: #244656;
+	height: 60px;
+	box-shadow: 0 0 10px #000;
+  	margin: 0.5%;
+  	color: #fff;
+  	padding: 0 30px 0 30px;
+}
+
+#showNotiCnt {
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	padding-left: 5px;
+	border-radius: 5px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    height: 20px;
+    width: 20px;
+    background: #FFF;
+    color: #000;
+}
+
+#logo {
+	cursor: pointer;
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    height: 40px;
+    width: 40px;
+    background: url("/Harmony/assets/img/logo.png") no-repeat;
+    background-size: cover;
+}
+
+#navbarName {
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#navbarName a, #navbarName a:hover, #navbarName a:visited, #myProfile a, #myProfile a:hover, #myProfile a:visited{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.navbarOption {
+	position: relative;
+	float: right;
+	margin: 20px 10px;
+	cursor: pointer;
+}
+
+.navbarOption:hover {
+	color: #767676;
+}
+
+.vline {
+	position: relative;
+	float: right;
+	margin: 20px 10px;
+	background: #fff;
+	height: 20px;
+	width: 2px;
+}
+
+.modalInput {
+	border-radius: 3px;
+	border-color: #A0A0A0;
+    box-shadow: 0 0 5px #A0A0A0;
+    margin: 5px 0;
+}
+
+.modal-header {
+	padding-left: 30px;
+}
+
+.modal-body {
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+.modalSubmit {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	border-radius: 5px;
+	width: 150px;
+	height: 40px;
+	background: #0CF443;
+	border: 0;
+	font-size: 16px;
+}

@@ -1,0 +1,8 @@
+body {
+	min-height: 0;
+}
+
+#mainBody {
+	padding: 100px 100px 0 100px;
+	min-height: 480px;
+}
